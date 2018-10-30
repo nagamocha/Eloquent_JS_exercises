@@ -14,7 +14,7 @@ function repeat(n, action){
 let arr_chars = ["a", "b", "c", "d"];
 //arr_chars.forEach(c => console.log(c));
 
-console.log([1,2,3,4,5].reduce((a,b) => a + b, 10));
+console.log([1,2,3,4,5].reduce( (a,b) => a + b, 10));
 console.log( arr_chars.reduce((a,b) => a + "_" + b) );
 
 
